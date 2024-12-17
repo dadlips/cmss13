@@ -12827,10 +12827,10 @@
 /turf/open/auto_turf/sand/layer1,
 /area/kutjevo/exterior/lz_dunes)
 "tMH" = (
-/obj/structure/machinery/computer/guestpass{
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/communications{
 	dir = 4
 	},
-/obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/kutjevo/colors/red,
 /area/kutjevo/interior/complex/med)
 "tMI" = (
@@ -14862,15 +14862,16 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/machinery/computer/guestpass{
-	dir = 4;
-	pixel_y = 7
-	},
+/obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/computer/cameras{
 	dir = 4;
 	pixel_y = -7
 	},
-/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/communications{
+	dir = 4;
+	pixel_y = 7;
+	layer = 2.97
+	},
 /obj/item/reagent_container/food/drinks/coffeecup{
 	pixel_x = -7;
 	pixel_y = 8
